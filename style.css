@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  h4 {
+    text-align: center;
+    padding: 20px; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+  }
+
+.tienda-oreo {
+    font-family: Arial, sans-serif; 
+    text-align: center; }
+
+.icono-tienda {
+    font-size: 1.5em; 
+    margin-right: 10px; 
+}
+
+nav {
+  margin-bottom: 30px; 
+}
+
+.nav-link:hover {
+    color: #0478f4; 
+    }
+
+.introduccion {
+        color: #286664; 
+        background-color: #f8f9fa; 
+        padding: 20px; 
+        border-radius: 5px; 
+        margin-bottom: 20px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        text-align: center; 
+ }
+    
+
+.listado-de-productos {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center; 
+
+    }
+
+.estilo-productos {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.estilo-productos img {
+    max-width: 100%;
+    max-height: 150px; 
+    margin-bottom: 10px;
+}
+
+.agregar-al-carro {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.agregar-al-carro:hover {
+    background-color: #0056b3;
+}
+
+#carro-de-compras {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#carro-de-compras h4 {
+    margin-bottom: 10px;
+}
+
+.total-valor {
+display: flex;
+justify-content: center;
+}
+
+.remover-producto {
+    background-color: #d65d5d; /* Rojo */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px; 
+}
+
+.remover-producto:hover {
+    background-color: #cc0000; 
+}
+
+.total-valor {
+    background-color: #cceeff; /* Azul claro */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.total-valor h3 {
+    margin: 0;
+    color: #080808;
+}
+
+.total-valor span {
+    font-weight: bold;
+    color: #080808; 
+}
